@@ -6,14 +6,7 @@ class person{
 }
 
 class pet {
-		public function owner(){
-		$a = "Hi there!";
-		echo"hello world";
-		return $a;
-	}
-}
-class boy {
-		public function owner(){
+	private function owner(){
 		$a = "Hi there!";
 
 		return $a;

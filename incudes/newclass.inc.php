@@ -8,5 +8,12 @@ class NewClass{
 $object = new NewClass;
 var_dump($object);
 
+class pet {
+		public function owner(){
+		$a = "Hi there!";
+
+		return $a;
+	}
+}
 
 ?>
