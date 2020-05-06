@@ -11,9 +11,9 @@ include 'person.php';
 <?php  
 
 
-	$pet01 = new pet();
+	$pet01 = new person();
 
-	echo $pet01->owner();
+	echo $pet01->first;
 ?>
 
 </body>
