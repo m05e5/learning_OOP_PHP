@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php  
-include 'person.inc.php';
+include 'person.php';
 ?>
 <head>
 	<title></title>
@@ -10,7 +10,8 @@ include 'person.inc.php';
 
 <?php  
 
-	$pet01 = new boy();
+
+	$pet01 = new pet();
 
 	echo $pet01->owner();
 ?>
